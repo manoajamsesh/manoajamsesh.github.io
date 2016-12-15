@@ -1,22 +1,33 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Manoa Jam Sesh by manoajamsesh</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Manoa Jam Sesh</h1>
-      <h2 class="project-tagline">It&#39;s Jam-tastic!</h2>
-    </section>
+<html>
 
-    <section class="main-content">
-      <h1>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Manoa Jam Sesh : It&#39;s Jam-tastic!">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Manoa Jam Sesh</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/manoajamsesh">View on GitHub</a>
+
+          <h1 id="project_title">Manoa Jam Sesh</h1>
+          <h2 id="project_tagline">It&#39;s Jam-tastic!</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
 <a id="welcome-to-manoa-jam-sesh" class="anchor" href="#welcome-to-manoa-jam-sesh" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to Manoa Jam Sesh</h1>
 
 <h2>
@@ -46,32 +57,42 @@
 <h3>
 <a id="the-home-page" class="anchor" href="#the-home-page" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Home Page</h3>
 
-<p>Once logged in, you can see the home page and a list of currently registered users.</p>
+<p>Once logged in, you can see the home page and a list of currently registered users. The intended function of the follow buttons is so that when you follow a user, you will be notified of any updates that occur to that user, such as upcoming jam sessions that they will partake in.</p>
 
 <p><img width="1440" alt="screen shot 2016-12-14 at 8 06 59 pm" src="https://cloud.githubusercontent.com/assets/12768461/21213734/83171890-c23a-11e6-9959-1f9548c02d0b.png"></p>
 
 <h3>
 <a id="your-profile" class="anchor" href="#your-profile" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Your Profile</h3>
 
+<p>This is your profile page, which will contain pertinent information that will help other users contact as well as get to know you through your About Me section. The intended use of the social media links are to indicate that the users can choose to link their profiles from other sites to supplement a user's profile. Upcoming sessions are also displayed within the profile page. However, these functions are still in the works.</p>
+
 <p><img width="1440" alt="screen shot 2016-12-14 at 8 08 05 pm" src="https://cloud.githubusercontent.com/assets/12768461/21213737/8d51a866-c23a-11e6-94c2-10228879dcf5.png"></p>
 
 <h3>
 <a id="edit-profile" class="anchor" href="#edit-profile" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Edit Profile</h3>
+
+<p>The edit profile page allows you to edit your profile by either uploading a picture or editing content.</p>
 
 <p><img width="1440" alt="screen shot 2016-12-14 at 8 05 34 pm" src="https://cloud.githubusercontent.com/assets/12768461/21213745/98a7531e-c23a-11e6-9a25-f5fe0c9f5895.png"></p>
 
 <h3>
 <a id="browse" class="anchor" href="#browse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Browse</h3>
 
+<p>The browse page's intended use is similar to the home page, but differs in that the search function can allow the user to see more information about other and can filter through the list using keywords.</p>
+
 <p><img width="1438" alt="screen shot 2016-12-14 at 8 09 21 pm" src="https://cloud.githubusercontent.com/assets/12768461/21213751/a4f1d87e-c23a-11e6-9adc-2fc5aeb0e37e.png"></p>
 
 <h3>
 <a id="scheduling-a-session" class="anchor" href="#scheduling-a-session" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scheduling a Session</h3>
 
+<p>This form is intended to allow a registered user to fill out information that is needed to schedule a Jam Session. After submitting the form with all the correct credentials, a jam session will be created and a copy of the table will be posted onto the participating members' profile pages.</p>
+
 <p><img width="1440" alt="screen shot 2016-12-14 at 8 10 29 pm" src="https://cloud.githubusercontent.com/assets/12768461/21213755/afb2c67e-c23a-11e6-88d2-50defba87a59.png"></p>
 
 <h2>
 <a id="developer-guide" class="anchor" href="#developer-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developer Guide</h2>
+
+<p>Listed below are the steps required to participate in the development of this application:</p>
 
 <ul>
 <li><p>Be sure that Meteor is installed on your development system.</p></li>
@@ -116,14 +137,17 @@
 <p>Dee Mosher (<a href="https://github.com/dmosher42" class="user-mention">@dmosher42</a>)</p>
 
 <p>Kendrick Chen (<a href="https://github.com/kendrickchen" class="user-mention">@kendrickchen</a>)</p>
+      </section>
+    </div>
 
-      <footer class="site-footer">
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
+    </div>
 
-    </section>
+    
 
-  
   </body>
 </html>
